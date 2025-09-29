@@ -6,7 +6,7 @@ import NewEvent from "./pages/NewEvent";
 import Home from "./pages/Home";
 import PublicEvent from "./pages/PublicEvent";
 import { useAuth } from "./context/AuthContext";
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar";
 
 function ProtectedRoute({ children }) {
   const { token } = useAuth();
