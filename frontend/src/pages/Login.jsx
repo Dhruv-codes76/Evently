@@ -82,7 +82,7 @@ function Login() {
           />
           <Button
             variant="primary"
-            className="w-full py-3 text-lg font-semibold mt-2"
+            className="w-full py-2 text-base font-semibold mt-2"
             type="submit"
             disabled={loading}
           >

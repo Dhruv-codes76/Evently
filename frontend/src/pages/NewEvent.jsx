@@ -73,21 +73,21 @@ export default function NewEvent() {
             label="Title"
             placeholder={"Event Title"}
             value={title}
-            onChange={setTitle}
+            onChange={e => setTitle(e.target.value)}
             error={titleError}
           />
           <InputField
             label="Date"
             type="date"
             value={date}
-            onChange={setDate}
+            onChange={e => setDate(e.target.value)}
             error={dateError}
           />
           <InputField
             label="Location"
             placeholder={"Event Location"}
             value={location}
-            onChange={setLocation}
+            onChange={e => setLocation(e.target.value)}
             error={locationError}
           />
           <textarea
