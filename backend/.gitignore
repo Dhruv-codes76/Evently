@@ -1,0 +1,7 @@
+.env
+node_modules
+evently.db
+*.log
+*.sqlite
+.DS_Store
+npm-debug.log*
