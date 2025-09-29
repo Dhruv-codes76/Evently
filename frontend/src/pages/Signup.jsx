@@ -64,7 +64,7 @@ export default function Signup() {
                 placeholder={"Email Address"}
                 type="email"
                 value={email}
-                onChange={setEmail}
+                onChange={e => setEmail(e.target.value)}
                 error={emailError}
                 autoComplete="email"
               />
@@ -73,7 +73,7 @@ export default function Signup() {
                 placeholder={"Password"}
                 type="password"
                 value={password}
-                onChange={setPassword}
+                onChange={e => setPassword(e.target.value)}
                 error={passwordError}
                 autoComplete="new-password"
               />
