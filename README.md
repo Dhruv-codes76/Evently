@@ -39,7 +39,6 @@ A full-stack event tracking application with a Node.js/Express backend (SQLite, 
 - JWT (jsonwebtoken)
 - Bcrypt (password hashing)
 - Joi (validation)
-- Winston or custom logger
 
 **Frontend:**
 - React
