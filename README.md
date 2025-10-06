@@ -44,7 +44,6 @@ A full-stack event tracking application with a Node.js/Express backend (SQLite, 
 - React
 - Tailwind CSS
 - React Router
-- Context API
 
 ---
 
