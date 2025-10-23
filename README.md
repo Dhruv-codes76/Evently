@@ -12,7 +12,6 @@ A full-stack event tracking application with a Node.js/Express backend (SQLite, 
 - [Environment Variables](#environment-variables)
 - [Best Practices & Architecture](#best-practices--architecture)
 - [Trade-offs & Notes](#trade-offs--notes)
-- [License](#license)
 
 ---
 
